@@ -1,0 +1,5 @@
+name: test-selenium
+on:
+push:
+branches:
+-master
