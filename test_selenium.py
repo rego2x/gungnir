@@ -13,3 +13,4 @@ print(driver.current_url)
 from selenium import webdriver  
 driver = webdriver.Chrome()  
 driver.get("https://www.yahoo.co.jp")  
+driver.quit()  
