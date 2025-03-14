@@ -10,7 +10,17 @@ driver = webdriver.Chrome(options=options)
 driver.get('http://www.yahoo.co.jp')
 print(driver.current_url)
 '''
+
+'''
 from selenium import webdriver  
 driver = webdriver.Chrome()  
 driver.get("https://www.yahoo.co.jp")  
 driver.quit()  
+'''
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+# WebDriverの設定
+options = webdriver.ChromeOptions()
+driver = webdriver.Chrome(options=options)
